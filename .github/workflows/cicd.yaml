@@ -3,8 +3,8 @@ name: cicd
 on:
   workflow_dispatch:
   push:
-    paths:
-      - src/**
+    # paths:
+    #   - src/**
     branches:
       - main
 
