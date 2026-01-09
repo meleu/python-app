@@ -40,8 +40,8 @@ jobs:
         run: |
           echo ${{needs.ci.outputs.commit_id}}
           sudo apt update
-          sudo apt-get install --no-install-recommends pipx
-          pip install yq
+          sudo apt-get install --yes --no-install-recommends pipx
+          pipx install yq
           yq -Yi '.image.tag = "${{needs.ci.outputs.commit_id}}"' charts/python-app/values.yaml
 
       - name: Commit changes
