@@ -2,7 +2,7 @@ replicaCount: 1
 image:
   repository: meleuzord/python-app
   pullPolicy: IfNotPresent
-  tag: 13e1ec
+  tag: d0655a
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
