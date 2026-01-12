@@ -1,6 +1,6 @@
 site_name: "python-app"
 site_description: "Main documentation for the python-app"
-repo_url: https://github.com/meleuzord/python-app
+repo_url: https://github.com/meleu/python-app
 edit_uri: edit/main/docs
 
 plugins:
@@ -10,4 +10,3 @@ plugins:
 nav:
   - Overview:
       - Getting started: "docs/index.md"
-
